@@ -19,10 +19,9 @@ class BubbleSort {
     /* Prints the array */
     void printArray(int[] arr)
     {
-        int n = arr.length;
-        for (int i = 0; i < n; ++i)
-            System.out.print(arr[i] + " ");
-        System.out.println();
+//        int n = arr.length;
+        for (int j : arr) System.out.printf("|%-5d",j );
+        System.out.println("|");
     }
 
     // Driver method to test above
